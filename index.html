@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Adventurer</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div id="frame">
+        <div id="map-pane">
+          <div id="game"></div>
+          <div id="pad" hidden>
+            <div class="pad-grid">
+              <button type="button" data-dir="up" aria-label="Move up">▲</button>
+              <button type="button" data-dir="left" aria-label="Move left">◀</button>
+              <button type="button" data-dir="down" aria-label="Move down">▼</button>
+              <button type="button" data-dir="right" aria-label="Move right">▶</button>
+            </div>
+            <button type="button" id="interact" aria-label="Talk or interact">Talk</button>
+          </div>
+        </div>
+        <aside id="lesson" aria-label="Lesson"></aside>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

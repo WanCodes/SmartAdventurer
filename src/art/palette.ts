@@ -1,0 +1,15 @@
+export const PALETTE = {
+  outline: "#2a2118",
+  grass: ["#d5e6c8", "#c9dec0", "#e4f0dc"],
+  path: ["#f6f1e6", "#e6dfd0", "#fbf8f2"],
+  water: ["#b7d4ea", "#9ec4e0", "#d7ebf6"],
+  roof: "#c46a5a",
+  wall: "#f7f1e4",
+  wood: "#8a5a32",
+  grove: ["#c5dcc4", "#d7ead6", "#b4d0b8"],
+  leaf: ["#2f6b3a", "#3d8448", "#24562e"],
+  trunk: "#6b442c",
+  flower: ["#e07a9a", "#f0d35a", "#8e6ad8"],
+  gold: "#e0b15a",
+  night: "#1a140f",
+} as const;

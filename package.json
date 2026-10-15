@@ -1,0 +1,19 @@
+{
+  "name": "smart-adventurer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "sprites": "node scripts/paint-sprites.mjs",
+    "dev": "npm run sprites && vite",
+    "build": "npm run sprites && tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "phaser": "^3.88.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
