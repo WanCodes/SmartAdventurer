@@ -45,7 +45,7 @@ Max health starts at 10 and gains 2 per level, before gear. Damage starts at 1. 
 
 ## Tech
 
-| | |
+| Layer | Detail |
 | --- | --- |
 | Language | TypeScript, strict, target ES2022 (`typescript` `^5.8.3`) |
 | Game | Phaser 3 with arcade physics (`phaser` `^3.88.2`) |
@@ -107,7 +107,7 @@ npm run build
 npm run preview
 ```
 
-`build` regenerates the sprite sheet, typechecks `src/` with `tsc --noEmit`, and writes the production bundle to `dist/`. Paths are relative (`base: "./"`), so the folder can be opened from a static host. `preview` serves `dist/`.
+`build` regenerates the sprite sheet, typechecks `src/` with `tsc --noEmit`, and writes the production bundle to `dist/`. Paths are relative (`base: "./"`), so the folder can be opened from a static host. `preview` serves `dist/` at <http://localhost:4173>.
 
 ### Play
 
@@ -118,7 +118,7 @@ npm run preview
 
 A Talk prompt appears beside Elder Rowan, Nia, and Mara. A Challenge prompt appears beside a creature you have not cleared. The east road stays shut until Nia’s question is answered.
 
-On the title screen, **Continue** resumes the save in this browser. **New game** replaces `smart-adventurer-save`. Clearing site data for this origin removes it. The on-screen save actions are Continue and New game.
+On the title screen, **Continue** resumes the save in this browser. **New game** replaces `smart-adventurer-save`. Clearing site data for this origin removes it.
 
 ## Scripts
 
